@@ -1,0 +1,38 @@
+{
+	"schemaVersion": 1,
+	"id": "PlayTimeTracker",
+	"version": "2.0",
+	"name": "Playtime Tracker",
+	"description": "This mod tracks and saves playtime of players.",
+	"authors": [
+		"Ayushman Bhattacharya"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/Circuit-Overtime/myPlayTimeTracker.git"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/playtimetracker/playTimeTrackerIcon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.playtime_rem"
+		]
+	},
+	"mixins": [
+		"playtimetracker.mixins.json",
+		{
+			"config": "playtimetracker.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
