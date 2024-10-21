@@ -1,4 +1,4 @@
-package com.playtime;
+package com.playtime_rem;
 
 import com.mojang.brigadier.CommandDispatcher;
 import net.fabricmc.api.ModInitializer;
