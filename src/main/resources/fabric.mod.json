@@ -1,7 +1,7 @@
 {
 	"schemaVersion": 1,
 	"id": "playtimetracker",
-	"version": "3.0",
+	"version": "3.0.1",
 	"name": "Playtime Tracker",
 	"description": "This mod tracks and saves playtime of players.",
 	"authors": [
